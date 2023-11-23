@@ -1,12 +1,18 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
+#todoInput{
+    border: none;
     
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
+
+.Counter,.memo {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .Counter h1 {
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .Counter button {
+    box-sizing: border-box;
+    flex-grow: 0;
+  }
