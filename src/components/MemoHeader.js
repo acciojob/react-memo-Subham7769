@@ -30,6 +30,7 @@ const MemoHeader = () => {
         <h1>React.memo</h1>
         <form className="memo" onSubmit={handleSubmit} >
           <input
+          id='skill-input'
             type="text"
             placeholder="New Skill"
             value={task}

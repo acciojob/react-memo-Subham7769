@@ -10,7 +10,7 @@ const Counter = () => {
   return (
     <div className='Counter'>
         <h1>Count: {count} </h1>
-        <button onClick={increment}>+</button>
+        <button onClick={increment} id='incr-cnt'>+</button>
     </div>
   )
 }
